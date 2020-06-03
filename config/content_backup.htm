@@ -15,7 +15,8 @@
 <p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
 <p></p>
 <h1>翻譯</h1>
-<p>3.4 Structural Problems: Static Loads<br/>3.4結構問題：靜載荷<br/>Again, as this text is not meant to cover all of the various structural considerations or problems encountered, I’d like to highlight a few problems (I kept it to three) that highlight the following:</p>
+<p>3.4 Structural Problems: Static Loads<br/>3.4結構問題：靜載荷</p>
+<p><br/>Again, as this text is not meant to cover all of the various structural considerations or problems encountered, I’d like to highlight a few problems (I kept it to three) that highlight the following:</p>
 <p>再次，因為本文並不打算涵蓋所有各種結構上的考慮或遇到的問題，我想強調一些問題（我將其保留為三個）突出顯示以下內容：</p>
 <p>• Problems that can be thought of as either “individual” in that loads and forces are applied to single members being designed or the “structures as a whole,” that is,it could be an analysis of the entire (assembled) structure.</p>
 <p>•可以認為是“個體”的問題是載荷和力是適用於正在設計的單個成員或“整體結構”，即它可能是對整個（組裝）結構的分析。</p>
@@ -58,6 +59,7 @@
 <p>•樑的長度必須與深度成比例，跨度/深度比應為8或對於金屬梁，更多，對於具有相對薄腹板的梁，為15或更多。</p>
 <p>This is shown in an excellent example by Byars and Snyder (see Ref. [2]), a cantilever beam as shown in Fig. 3.3. Determine the principal normal and shear stresses at Point A just below the flange. Assume elastic behavior and neglect any stress concentration at the wall.</p>
 <p>懸臂梁Byars和Snyder（參見參考文獻[2]）就是一個很好的例子。光束如圖3.3所示。 確定主要法向應力和剪應力法蘭下方的A點。 承擔彈性行為，忽略任何壓力集中在牆上。</p>
+<p><img alt="" height="648" src="/images/1.png" width="1152"/></p>
 <p>(Mohr’s Circle is used to find the total stress when bending stress and shear stress are considered in the problem) Note, however, that in such a short member as this with its thin-web cross section (span/depth ratio = 24/15 = 1.7), the validity of the flexure formula is questionable. Notice, for example, that the shear and normal stresses are of the same order of magnitude. Also, note that the length of this beam would have to be on the order of 19 feet, for the correct span/depth ratio to apply.</p>
 <p>（Mohr's Circle用於計算彎曲應力和剪切應力時的總應力注意），但是，在這樣的短成員中薄網橫截面（跨度/深度比= 24/15 = 1.7），撓曲公式值得懷疑。 注意，例如，剪力和法線應力大小相同。 另外，請注意該光束的長度要應用正確的跨度/深度比，必須在19英尺的數量級上。</p>
 <p>The importance of the above example is the emphasis on the effect of transverse shear stresses on maximum stress. In determining maximum stresses in beams, don’t be satisfied with your results until you have exhausted all possible combina- tions of flexure and shear stresses which could give the maximum principal stresses. Often, the construction of the shear and moment diagrams and a comparison of the orders of magnitude of the flexure stresses and transverse shear stresses will greatly simplify the problems.</p>
@@ -104,6 +106,7 @@
 <p>3.4.2撓度公式和最大撓度注塑雜誌）</p>
 <p>Another problem that illustrates the relationship between stress, deflection, moment of inertia, and area is shown by a method to allow the designer to determine the stress and deflection ratios of a ribbed plate compared to an unribbed plate of the same base thickness, W (Fig. 3.4). This problem will point out the importance (and ease!) of adding a rib to the design. This rib will greatly increase the strength of a section. Ribs, such as this, are easy to add in the injection molding process, casting process, or even in standard sheet metal design. Fig. 3.4 shows two charts. For the chart marked “stress ratio (ribbed/unribbed)”, the ordinate is the stress ratio and the abcissa is the rib height/base thickness. This chart shows how the maximum flexural stress changes as ribs are added to a flat plate. Each curve represents a particular rib spacing ratio, with the curve labeled “.01” representing very widely spaced ribs while other curves have more densely spaced ribs. The chart marked ‘deflection ratio’ is similar and shows a curve labeled “.01” representing very widely spaced ribs. More detail is available in Ref. [4].</p>
 <p>另一個問題說明了應力，撓度，力矩之間的關係 慣性，並通過一種方法顯示面積，以允許設計人員確定 肋板與無肋板相比的應力和撓度比相同的基礎厚度W（圖3.4）。這個問題將指出重要性（和輕鬆！）為設計添加肋骨。肋骨將大大增加部分。這樣的肋骨很容易在註塑成型，鑄造中添加工藝，甚至是標準鈑金設計。圖3.4顯示了兩個圖表。為了標有“應力比（肋骨/未肋骨）”的圖表，縱坐標為應力比，abcissa是肋骨高度/基礎厚度。該圖顯示了最大撓度肋板添加到平板時，應力會發生變化。每條曲線代表一個特定的肋骨間距比，曲線標記為“ .01”表示間距很寬的肋骨而其他曲線具有更密集的肋骨間距。標記為“撓度”的圖表比率”相似，並顯示標記為“ .01”的曲線，代表間距很大肋骨。參考中提供了更多詳細信息。 [4]。</p>
+<p><img alt="" height="691" src="/images/2.png" width="1152"/></p>
 <p>Procedure</p>
 <p>1. Calculate the equivalent base width, Beq = B/N, where<br/>Beq = Equivalent base width<br/>B = Total width of plate<br/>N = Total number of ribs</p>
 <p>程序<br/>1.計算等效基礎寬度，Beq = B / N，其中<br/>Beq =等效基準寬度<br/>B =板的總寬度<br/>N =肋骨總數<br/>2. Calculate the rib tip thickness, t = T − 2H (tan a), where<br/>t = thickness of rib at the tip<br/>T = thickness of rib at the base<br/>H = height of rib<br/>a = draft angle per side of the rib<br/>2.計算肋骨尖端厚度，t = T-2H（tan a），其中<br/>t =尖端的肋骨厚度<br/>T =底部肋骨的厚度<br/>H =肋骨高度<br/>a =肋骨每側的拔模角<br/>3. Calculate the cross-sectional area of the equivalent base section, Ar = BeqW +<br/>H ((T + t)/2) where:<br/>Ar = − Cross sectional area of equivalent base section</p>
@@ -142,6 +145,7 @@
 <p>D. Utilizes available literature from suppliers (in this case, Mobay Plastics). Instead of solving some of the more complex (yet, common) problems by first princi- ples, the use of tabulated options and nomograms can greatly reduce the design time needed.<br/>D.利用供應商提供的文獻資料（在本例中為Mobay Plastics）。 代替首先通過原理解決一些更複雜（迄今常見）的問題ples，使用列表選項和列線圖可以大大減少設計需要的時間。</p>
 <p>This calculation example is for a snap-fitting hook of rectangular cross section and with a constant decrease in thickness from h at the root to h/2 at the end of the hook (see Fig. 3.5). This is therefore design type 2 (see Table in Reference). General design goal is to permit maximum deformation with minimum material.</p>
 <p>此計算示例適用於矩形橫截面的卡扣鉤且厚度從根部的h不斷減小到末端的h / 2掛鉤（見圖3.5）。 因此，這是設計類型2（請參見參考表）。 一般設計目標是用最少的材料實現最大的變形。</p>
+<p><img alt="" height="648" src="/images/3.png" width="1152"/></p>
 <p>Length (l) = 0.75 inch<br/>Width (b) = 0.37 inch<br/>Undercut (y) = 0.094 inch<br/>Angle of inclination (α) = 30°<br/>長度（l）= 0.75英寸<br/>寬度（b）= 0.37英寸<br/>底切（y）= 0.094英寸<br/>傾斜角（α）= 30°</p>
 <p>Find:<br/>Thickness (h) at which full deflection (y) will cause a strain of 1⁄2 the permissible<br/>strain.<br/>From table (for polycarbonate), ε (permissible) = 4%; therefore, ε (allowable)<br/>=2%.<br/>找：<br/>厚度（h），在最大厚度處（y）會導致允許的1⁄2應變<br/>應變。<br/>從表中（對於聚碳酸酯），ε（允許）= 4％； 因此，ε（允許）<br/>= 2％。</p>
 <p>3.5 Dynamic Loads<br/>3.5動態負載</p>
@@ -165,3 +169,7 @@
 <p>2. Byars EF, Snyder RD (1969) Engineering mechanics of deformable bodies. International<br/>Textbook Co., Scranton<br/>2. Byars EF，Snyder RD（1969）可變形體的工程力學。 國際化斯克蘭頓教科書公司</p>
 <p>3. Design guide to the selection and application of EMI shielding materials. TECKNIT, EMI Shielding Products (1991)<br/>3.有關EMI屏蔽材料的選擇和應用的設計指南。 TECKNIT，EMI屏蔽產品（1991）</p>
 <p>4. Injection Molding magazine, May 1998 issue, R. Cramer of Dow Materials Engineering Center<br/>4.注塑雜誌，1998年5月，陶氏材料工程中心的R. Cramer</p>
+<h1>ONshape</h1>
+<p><img alt="" height="361" src="/images/M1114.PNG" width="597"/></p>
+<p></p>
+<p></p>
